@@ -21,7 +21,7 @@ app.use(cookieParser());
 app.use(compression());
 
   app.get('/', (_req: Request, res: Response) => {
-    return res.send('❤️😘🤣🤣🤣🍟🍔')
+    return res.send('❤️😘🤣🤣🤣🍟🍔 hello world!')
   })
 
   app.get('/ping', (_req: Request, res: Response) => {

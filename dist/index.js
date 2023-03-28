@@ -21,7 +21,7 @@ app.use(body_parser_1.default.json());
 app.use((0, cookie_parser_1.default)());
 app.use((0, compression_1.default)());
 app.get('/', (_req, res) => {
-    return res.send('❤️😘🤣🤣🤣🍟🍔');
+    return res.send('❤️😘🤣🤣🤣🍟🍔 hello world!');
 });
 app.get('/ping', (_req, res) => {
     return res.send('pong 🏓');
